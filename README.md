@@ -1,11 +1,11 @@
 # Hybrid One-Shot 3D Hand Pose Estimation by Exploiting Uncertainties
-The repository contains the results and a simple visualization script for the method we proposed in  
+The repository contains the results and a simple visualization script for the method we proposed in:  
+
 [Hybrid One-Shot 3D Hand Pose Estimation by Exploiting Uncertainties](https://files.icg.tugraz.at/seafhttp/files/2ce2540b-5e81-4f31-9417-bc922d325532/poier_bmvc15.pdf)  
 Georg Poier, Konstantinos Roditakis, Samuel Schulter, Damien Michel, Horst Bischof and Antonis A. Argyros.  
 In *Proc. BMVC*, 2015. ([Project Page](https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/hybridhpe/)).
 
 If you can make use of it, please cite:
-
 ```
 @inproceedings{Poier2015bmvc_hybridhape,  
   author = {Georg Poier and Konstantinos Roditakis and Samuel Schulter and Damien Michel and Horst Bischof and Antonis A. Argyros},  

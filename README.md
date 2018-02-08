@@ -28,11 +28,11 @@ Each line contains optimized position for a single joint/landmark, *i.e.*,
 
 ### Joint/landmark order
  - ICVL Dataset (16 positions)  
-They are ordered the same way as in the dataset (see [1])
+They are ordered the same way as in the dataset (see [1]).
 
  - NYU Dataset (36 positions)  
 The joint proposal files contain all 36 annotated positions.
-They are ordered the same way as in the dataset (see [2])
+They are ordered the same way as in the dataset (see [2]).
 However, we only optimized for a subset of 25 positions, 
 from which 12 are used for evaluation.
 These 12 are the same as suggested in [2,3], 

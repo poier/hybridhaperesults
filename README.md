@@ -1,19 +1,9 @@
 # Hybrid One-Shot 3D Hand Pose Estimation by Exploiting Uncertainties
-The repository contains the results and a simple visualization script for the method we proposed in:  
+This repository contains the results and a simple visualization script for the method we proposed in:  
 
-[Hybrid One-Shot 3D Hand Pose Estimation by Exploiting Uncertainties](https://files.icg.tugraz.at/seafhttp/files/2ce2540b-5e81-4f31-9417-bc922d325532/poier_bmvc15.pdf)  
+[**Hybrid One-Shot 3D Hand Pose Estimation by Exploiting Uncertainties**](https://files.icg.tugraz.at/seafhttp/files/2ce2540b-5e81-4f31-9417-bc922d325532/poier_bmvc15.pdf)  
 Georg Poier, Konstantinos Roditakis, Samuel Schulter, Damien Michel, Horst Bischof and Antonis A. Argyros.  
 In *Proc. BMVC*, 2015. ([Project Page](https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/hybridhpe/)).
-
-If you can make use of it, please cite:
-```
-@inproceedings{Poier2015bmvc_hybridhape,  
-  author = {Georg Poier and Konstantinos Roditakis and Samuel Schulter and Damien Michel and Horst Bischof and Antonis A. Argyros},  
-  title = {{Hybrid One-Shot 3D Hand Pose Estimation by Exploiting Uncertainties}},  
-  booktitle = {{Proc. British Machine Vision Conference (BMVC)}},  
-  year = {2015}
-}
-```
 
 ![Method sketch in images](/doc/method_sketch_images.png)  
 A learned joint regressor might fail to recover the pose of a hand due to ambiguities or lack of training data (a). We make use of the inherent uncertainty of a regressor by enforcing it to generate multiple proposals (b). The crosses show the top three proposals for the proximal interphalangeal joint of the ring finger for which the corresponding ground truth position is drawn in green. The marker size of the proposals corresponds to degree of confidence. Our subsequent model-based optimisation procedure exploits these proposals to estimate the true pose (c).
@@ -51,6 +41,16 @@ except for two positions on the palm, which were not represented by our model
 The used joint positions and correspondences are given in the simple example script 
 *./NYU/main_VisualizePositionsExample.m*
 
+## Citation
+If you can make use of it, please cite:
+```
+@inproceedings{Poier2015bmvc_hybridhape,  
+  author = {Georg Poier and Konstantinos Roditakis and Samuel Schulter and Damien Michel and Horst Bischof and Antonis A. Argyros},  
+  title = {{Hybrid One-Shot 3D Hand Pose Estimation by Exploiting Uncertainties}},  
+  booktitle = {{Proc. British Machine Vision Conference (BMVC)}},  
+  year = {2015}
+}
+```
 
 ## References
 [1] Poier et al., Hybrid One-Shot 3D Hand Pose Estimation by Exploiting Uncertainties. BMVC, 2015  
